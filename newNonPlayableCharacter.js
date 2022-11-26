@@ -23,8 +23,20 @@ function newNonPlayableCharacter(x, y) {
 
     setInterval(moveCharacter, 1)
 
+    // function walkEast(time) {
+    //     return new Promise((resolve) =>{
+    //         direction = 'east'
+    //         element.src = `./assets/red-character/east.gif`
+
+    //         setTimeout(()=>{
+    //             stop()
+    //             resolve()
+    //         }, time)
+    //     })
+    // }
+
     function walkEast(time) {
-        return new Promise((resolve) =>{
+       return new Promise((resolve) =>{
             direction = 'east'
             element.src = `./assets/red-character/east.gif`
 
